@@ -4,11 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import ContactForm from "../components/contact-form"
 
 const ContactPage = () => (
   <Layout innerHeight="100%" outerHeight="60vh">
     <SEO title="Contact" />
-    <div className="col-12"><h1>This is the contact page</h1></div>
+    <ContactForm></ContactForm>
   </Layout>
 )
 
